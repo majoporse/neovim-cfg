@@ -125,4 +125,7 @@ return {
       -- or just leave it empty :)
     },
   },
+  {
+    "github/copilot.vim",
+  },
 }
