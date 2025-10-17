@@ -72,6 +72,7 @@ return {
           end,
           desc = "Close buffer from tabline",
         },
+        ["<Leader>lD"] = { function() require("dbee").open() end, desc = "Open DBee" },
 
         -- tables with just a `desc` key will be registered with which-key if it's installed
         -- this is useful for naming menus
